@@ -24,7 +24,7 @@ fetch('http://0.0.0.0:5001/api/v1/status/')
 
 $.ajax({ 
   method: 'POST', 
-  url: 'http://0.0.0.0:5000/api/v1/places_search/', 
+  url: 'http://0.0.0.0:5001/api/v1/places_search/', 
   data: JSON.stringify({}), 
   dataType: 'json', 
   headers: { 

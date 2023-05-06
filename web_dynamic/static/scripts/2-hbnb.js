@@ -8,7 +8,7 @@ $(document).ready(() => {
     }
     $('.amenities h4').text(Object.values(amenities).join(', '));
   });
-fetch('http://0.0.0.0:5001/api/v1/status/')
+fetch ('http://0.0.0.0:5001/api/v1/status/')
   .then(response => {
     if (response.ok) {
       $('#api_status').addClass('available');
